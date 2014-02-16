@@ -1,4 +1,4 @@
-pomodoro-droid
+Concentrato
 ==============
 
-Github pages branch of PomodoroDroid repo
+Github pages branch of Concentrato repo
