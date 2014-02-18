@@ -1,0 +1,119 @@
+html {
+	background: url(background.png) no-repeat center;
+	/*-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;*/
+	overflow-x: hidden
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.header {
+	/*background: linear-gradient(90deg, #FFFFFF, #BE291D,  #BE291D);*/
+	/*background-color: rgba(213,100,89, 0.6);*/
+	background-color: rgba(158, 41, 29, 0.6);
+	width: 100%;
+	height: 90px;
+	padding: 10px;
+}
+.profile-name {
+	/*line-height: 60px*/
+	font-family: 'Roboto';
+	font-size: 20px;
+	color: white;
+}
+.profile-name a {
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-size: 16px;
+	float: right;
+	color: white;
+	margin-right: 34px;
+}
+.profile-logo-image img {
+	float: left;
+	width: 7%;
+	height: 7%;
+	margin-left: 0.8%;
+	margin-right: 10px;
+	padding-left: 78px
+}
+.nav {
+	background-color: #9E291D;
+	width: 100%;
+	height: 36px;
+	margin-top: 0;
+	padding-top: 12px
+}
+.nav a {
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-size: 18px;
+	color: white;
+	display: inline;
+	margin-right: 3px;
+	margin-left: 15%
+}
+.main {
+	position: relative;
+	font-family: 'Roboto';
+	font-size: 18px;
+	/*border-top: 35px solid #9E291D; *//* profile separator*/
+	text-align: justify;
+	/*background-color:  #F2F2E8;*/
+	padding-top: 15px;
+	width: 100%;
+	height: 900px;
+}
+.main h1, ol, p {
+	color: #708090
+}
+.wrapper {
+	width: 70%;
+	height: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.instructions1 {
+	font-family: 'Roboto';
+	font-size: 16px;
+	float: left;
+	width: 49%
+}
+.instructions2 {
+	float: right;
+	width: 49%
+}
+.instructions2 img {
+	float: right;
+	overflow: auto;
+	padding-top: 18px;
+	width: 60%;
+	height: 60%
+}
+.download {
+	font-family: 'Roboto';
+	/*font-size: 18px;*/
+	float: right;
+	width: 100%;
+	padding-top: 10px
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(158, 41, 29, 0.6);
+	/*background-color: #f7f7f7;*/
+	border-top: solid 4px #eee; /*footer separator*/
+}
+.footer p {
+	text-align: center;
+	font-size: 11px;
+	color: #FFFFFF;
+}
